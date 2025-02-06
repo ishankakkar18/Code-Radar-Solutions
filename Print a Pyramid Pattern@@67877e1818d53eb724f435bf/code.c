@@ -22,7 +22,7 @@ int main() {
 
     else
     {
-        print("*")
+        printf("*");
     }
     }
     return 0;
