@@ -15,18 +15,18 @@ int main() {
             printf("*");
             
         }
-        }
+        
         for(int l=2;l<=i;l++){
             printf("*");
         }
         b--;
-        printf("\n");
+        printf("\n");}
 
-    // elseif (a==1)
-    // {
-    //     printf("*");
+    elseif (a==1)
+    {
+        printf("*");
 
-    // }
+    }
     }
     return 0;
 }
