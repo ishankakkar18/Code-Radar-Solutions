@@ -4,7 +4,7 @@ int main() {
     scanf("%c",&a);
     int b ;
     b=(int)a;
-    if (b>97){
+    if (b<97){
         printf("Uppercase");
 
     }  
