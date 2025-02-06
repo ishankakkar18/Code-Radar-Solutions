@@ -5,7 +5,8 @@ int main() {
     int b=a;
     for (int i=1;i<=a;i++)
     {
-        if (a>1){for (int j=b;j>=1;j--)
+        if (a>1)
+        {for (int j=b;j>=1;j--)
         {printf(" ");}
         for (int k=1;k<=i;k++){
 
@@ -19,9 +20,10 @@ int main() {
         b--;
         printf("\n");
 
-    
+    }
     else{
         printf("*");
-    }}
+    }
+    }
     return 0;
 }
