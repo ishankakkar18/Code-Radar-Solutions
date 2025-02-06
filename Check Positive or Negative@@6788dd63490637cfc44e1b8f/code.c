@@ -7,12 +7,12 @@ int main() {
         printf("Positive");
 
     }
-    elseif(a<0)
+    if(a<0)
     {
         printf("Negative");
 
     }
-    elseif{
+    if{
         printf("Zero");
     }
 
