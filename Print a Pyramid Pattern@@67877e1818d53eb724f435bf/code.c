@@ -22,7 +22,7 @@ int main() {
         b--;
         printf("\n");}
 
-    if (a==1)
+    else (a==1)
     {
         printf("*");
 
