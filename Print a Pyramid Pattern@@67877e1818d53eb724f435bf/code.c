@@ -20,10 +20,7 @@ int main() {
         b--;
         printf("\n");
 
-    }
-    else{
-        printf("*");
-    }
+    
     }
     return 0;
 }
