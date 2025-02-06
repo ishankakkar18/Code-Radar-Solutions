@@ -19,9 +19,9 @@ int main() {
         b--;
         printf("\n");
 
-    }
+    
     else{
         print("*");
-    }
+    }}
     return 0;
 }
