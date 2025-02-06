@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char a;
-    scanff("%c",&a);
+    scanf("%c",&a);
     b = ord(a);
     printf("%d",b);
 
