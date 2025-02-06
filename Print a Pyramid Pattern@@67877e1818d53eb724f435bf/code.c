@@ -22,11 +22,11 @@ int main() {
         b--;
         printf("\n");}
 
-    elseif (a==1)
-    {
-        printf("*");
+    // elseif (a==1)
+    // {
+    //     printf("*");
 
-    }
+    // }
     }
     return 0;
 }
