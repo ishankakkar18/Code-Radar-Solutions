@@ -20,11 +20,11 @@ int main() {
         b--;
         printf("\n");
 
-    else
-    {
-        printf("*");
-        
-    }
+    // else
+    // {
+    //     printf("*");
+
+    // }
     }
     return 0;
 }
