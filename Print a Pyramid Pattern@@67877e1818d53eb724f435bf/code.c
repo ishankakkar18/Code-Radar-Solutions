@@ -20,5 +20,8 @@ int main() {
         printf("\n");
 
     }
+    else{
+        print("*")
+    }
     return 0;
 }
