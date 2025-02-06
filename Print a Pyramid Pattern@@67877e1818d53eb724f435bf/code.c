@@ -18,9 +18,9 @@ int main() {
         }
         for(int l=2;l<=i;l++){
             printf("*");
-        }
+        
         b--;
-        printf("\n");
+        printf("\n");}
 
     if (a==1)
     {
