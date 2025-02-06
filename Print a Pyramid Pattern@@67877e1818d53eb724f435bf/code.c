@@ -21,7 +21,7 @@ int main() {
 
     }
     else{
-        print("*")
+        print("*");
     }
     return 0;
 }
