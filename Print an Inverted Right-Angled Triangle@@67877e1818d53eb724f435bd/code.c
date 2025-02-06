@@ -7,8 +7,8 @@ int main()
     {
         for(int j=1;j>=i;j+=)
         {
-            print("*")
+            print("*");
         }
-        print("/n")
+        print("/n");
     }
 }
