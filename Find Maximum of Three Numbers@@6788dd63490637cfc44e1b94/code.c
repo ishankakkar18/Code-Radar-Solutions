@@ -13,8 +13,8 @@ int main() {
         }
 
     }
-    if(b>=a){
-        if(b>=c){
+    if(b>a){
+        if(b>c){
             printf("%d",b);
 
         }
