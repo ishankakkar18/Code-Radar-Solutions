@@ -4,8 +4,8 @@ int main() {
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    if (a>b){
-        if (a>c){
+    if (a>=b){
+        if (a>=c){
             printf("%d",a);
         }
         else{
@@ -13,8 +13,8 @@ int main() {
         }
 
     }
-    if(b>a){
-        if(b>c){
+    if(b>=a){
+        if(b>=c){
             printf("%d",b);
 
         }
@@ -22,5 +22,6 @@ int main() {
             printf("%d",c);
         }
     }
+    if 
     return 0;
 }
