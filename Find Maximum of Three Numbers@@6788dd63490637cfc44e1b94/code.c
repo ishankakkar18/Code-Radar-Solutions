@@ -22,6 +22,6 @@ int main() {
             printf("%d",c);
         }
     }
-    if 
+    
     return 0;
 }
