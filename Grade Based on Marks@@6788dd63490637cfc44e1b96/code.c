@@ -5,17 +5,17 @@ int main() {
     if (a>=90){
         printf("A");
     }
-    elseif(a>=80){
+    else if(a>=80){
         printf("B");
     }
-    elseif(a>=70){
+    else if(a>=70){
         printf("C");
 
     }
-    elseif(a>=60){
+    else if(a>=60){
         printf("D");
     }
-    elseif(a<60){
+    else if(a<60){
         printf("F");
     }
     return 0;
