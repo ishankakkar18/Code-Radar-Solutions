@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+    int a;
+    int m=a;
+    int x=1;
+    scanf("%d",&a);
+    for(int i=1;i<=2*a-1;i++){
+        for(int j=1;j<m;j++){
+            printf(" ");
+        }
+        for(int k=1;k<=x;k++){
+            print("*");
+
+        }
+        if(i>a){
+            m--;
+            x +=2;
+        }
+        else{
+            m++;
+            x +=2;
+        }
+    }
+
+    return 0;
+}
