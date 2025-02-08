@@ -12,7 +12,7 @@ int main() {
             printf("*");
 
         }
-        if(i<a){
+        if(i<=a){
             m--;
             x =x+2;
         }
