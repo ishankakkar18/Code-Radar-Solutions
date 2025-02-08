@@ -4,7 +4,7 @@ int main() {
     int m=a;
     int x=1;
     scanf("%d",&a);
-    for(int i=1;i<=2*a-1;i++){
+    for(int i=1;i<=(2*a)-1;i++){
         for(int j=1;j<m;j++){
             printf(" ");
         }
@@ -12,7 +12,7 @@ int main() {
             printf("*");
 
         }
-        if(i>a){
+        if(i<a){
             m--;
             x =x+2;
         }
