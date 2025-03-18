@@ -14,7 +14,7 @@ int main()
     int z=b;
     while (b!=0)
     {
-        print("%d",n[a]);
+        printf("%d",n[a]);
         a--;
         b--;
 
