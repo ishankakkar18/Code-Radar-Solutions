@@ -21,6 +21,6 @@ int main()
     }
     for (int j=0;j<l-z;j++)
     {
-        print("%d",n[j]);
+        printf("%d",n[j]);
     }
 }
