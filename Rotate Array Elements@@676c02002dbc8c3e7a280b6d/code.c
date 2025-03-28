@@ -12,9 +12,11 @@ int main()
     int x;
     scanf("%d",&x);
     int c=n-x;
-    printf("%d",a[c]);
-    printf("\n");
-    for(int j=0;j<n;j++)
+    for (int h=c;h<n;h++){
+        printf("%d",a[h]);
+        printf("\n");
+    }
+    for(int j=0;j<c;j++)
     {
         if(j==c){
             continue;
