@@ -11,7 +11,7 @@ int main()
     }
     int x;
     scanf("%d",&x);
-    int c=n-1-x;
+    int c=n-x;
     printf("%d",a[c]);
     printf("\n");
     for(int j=0;j<n;j++)
