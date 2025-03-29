@@ -15,7 +15,7 @@ int main()
     for(int j=0;j<n;j++)
     {
 
-        if (a[j]>a[j+1])
+        if (a[j]=>a[j+1])
         {
             printf("%d",a[j]);
             break;
