@@ -14,7 +14,7 @@ int main()
 
     for(int j=0;j<n;j++)
     {
-        if(c>=a[j]){
+        if(c<=a[j]){
             c=a[j];
         }
     }
