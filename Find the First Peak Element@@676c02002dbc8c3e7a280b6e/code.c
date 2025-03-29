@@ -10,11 +10,11 @@ int main()
         scanf("%d",&a[i]);
 
     }
-    int c=a[0];
+    
 
     for(int j=0;j<n-1;j++)
     {
-        for(int k=1;k>n;k++)
+        for(int k=1;k<n;k++)
 
         if (a[j]>a[k])
         {
