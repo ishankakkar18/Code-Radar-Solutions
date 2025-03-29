@@ -12,7 +12,7 @@ int main()
     }
     
 
-    for(int j=0;j<n-1;j++)
+    for(int j=0;j<n;j++)
     {
 
         if (a[j]>a[j+1])
