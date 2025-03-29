@@ -12,7 +12,7 @@ int main()
     }
     int c=a[0];
 
-    for(int j=0;j<n;j++)
+    for(int j=0;j<n-1;j++)
     {
         for(int k=1;k>n;k++)
 
