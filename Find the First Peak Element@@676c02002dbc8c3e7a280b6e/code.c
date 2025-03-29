@@ -19,6 +19,7 @@ int main()
         if (a[j]>a[k])
         {
             printf("%d",a[j]);
+            break;
         }    
         
     }
