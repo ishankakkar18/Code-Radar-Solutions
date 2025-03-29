@@ -21,6 +21,7 @@ int b=a[0];
         else{
             continue;
         }
+        printf("%d %d",c,b);
         
     }
     return 0;}
