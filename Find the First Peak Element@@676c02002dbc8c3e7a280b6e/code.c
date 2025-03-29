@@ -14,10 +14,13 @@ int main()
 
     for(int j=0;j<n;j++)
     {
-        if(c<=a[j]){
-            c=a[j];
-        }
+        for(int k=1;k>n;k++)
+
+        if (a[j]>a[k])
+        {
+            printf("%d";a[j]);
+        }    
+        
     }
-    printf("%d",c);
-    return 0;
+       return 0;
 }
