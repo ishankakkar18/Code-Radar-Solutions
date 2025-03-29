@@ -20,8 +20,8 @@ int b=a[0];
         {b=a[j];}
         else{
             continue;
-        }
+        }}
         printf("%d %d",c,b);
         
-    }
+    
     return 0;}
