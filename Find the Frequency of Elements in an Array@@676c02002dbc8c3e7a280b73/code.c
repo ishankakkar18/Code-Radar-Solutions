@@ -9,13 +9,13 @@ int main()
         }
         for(int j=0;j<n-1;j++){
             for(int k=j+1;k<n;k++){
-                for(l=0;l<k;l++){
+                
                 int m=0;
-                if (a[j]==a[k] &&a[j]!=a[l])
+                if (a[j]==a[k])
                 {
                     m++;
                 }
-            }}
+            }
             printf("%d %d",a[j,m]);
             printf("\n");
         }
