@@ -11,7 +11,7 @@ int main()
             for(int k=j+1;k<n;k++){
                 for(l=0;l<k;l++){
                 int m=0;
-                if (a[j]==a[k] &&a[j]!=a[k])
+                if (a[j]==a[k] &&a[j]!=a[l])
                 {
                     m++;
                 }
