@@ -16,7 +16,7 @@ int main()
                     m++;
                 }
             }
-            printf("%d %d",a[j,m]);
+            printf("%d %d",a[j],m);
             printf("\n");
         }
 
