@@ -20,10 +20,10 @@ int main()
                 {
                     m++;
                 }
-            }}
+            }}}
             printf("%d %d",a[j],m);
             printf("\n");
-        }}
+        }
 
         return 0;
 }
