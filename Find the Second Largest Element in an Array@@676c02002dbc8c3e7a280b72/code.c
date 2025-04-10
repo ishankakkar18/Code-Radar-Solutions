@@ -18,7 +18,7 @@ int main()
         
 
     }
-    printf("%d",temp);
+    printf("%d",max);
 
     return 0;
 }
