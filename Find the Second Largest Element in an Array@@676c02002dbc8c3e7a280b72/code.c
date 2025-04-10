@@ -9,7 +9,7 @@ int main()
         int temp=0;
         int max;
     for(int i=0;i<n;i++){
-        if(a[i]=>temp)
+        if(a[i]>=temp)
         {
             max=temp;
             temp=a[i];
