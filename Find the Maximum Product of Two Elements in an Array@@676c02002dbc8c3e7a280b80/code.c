@@ -30,4 +30,4 @@ int main() {
     //     printf("%d",a[i]);
     // }
     return 0;
-}Loading Code...
+}
