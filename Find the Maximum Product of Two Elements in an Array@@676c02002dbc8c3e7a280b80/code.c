@@ -11,7 +11,7 @@ int main() {
     int b=-9900;
     
      int temp;
-     for(int i=0;i<n-1;i++){
+     for(int i=0;i<n;i++){
       if (a[i]>c){
           b=c;
           c=a[i];
