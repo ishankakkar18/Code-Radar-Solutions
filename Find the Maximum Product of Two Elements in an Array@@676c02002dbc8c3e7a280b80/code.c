@@ -16,7 +16,7 @@ int main() {
             a[i]=a[i]*-1;
         }
         
-      if (a[i]>c){
+      if (a[i]>=c){
           b=c;
           c=a[i];
       }   
