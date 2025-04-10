@@ -39,9 +39,10 @@ int main() {
         if (arr[i] > first) {
             second = first;
             first = arr[i];
-        } else if (arr[i] > second && arr[i] != first) {
-            second = arr[i];
         }
+        // else if (arr[i] > second && arr[i] != first) {
+        //     second = arr[i];
+        // }
     }
 
     if (second == -2147483648)
