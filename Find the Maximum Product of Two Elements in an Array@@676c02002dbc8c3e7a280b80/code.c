@@ -12,10 +12,11 @@ int main() {
     
      int temp;
      for(int i=0;i<n;i++){
-      if (a[i]>c){
         if (a[i]<0){
             a[i]=a[i]*-1;
         }
+        
+      if (a[i]>c){
           b=c;
           c=a[i];
       }   
