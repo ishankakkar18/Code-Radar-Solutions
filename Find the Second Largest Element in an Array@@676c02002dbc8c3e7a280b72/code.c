@@ -7,7 +7,7 @@ int main()
     for(int i=0;i<=n;i++){
         scanf("%d",&a[i]);}
         int temp=a[i] ;
-        int temp;
+        int max;
     for(int i=0;i<n;i++){
         if(a[i]<temp)
         {
