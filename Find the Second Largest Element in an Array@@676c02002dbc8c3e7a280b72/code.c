@@ -55,11 +55,12 @@ int main() {
             second = arr[i];
         }
     }
+    printf("%d",second );
 
-    if (second == -2147483648)
-        printf("No second largest element (all elements are same).\n");
-    else
-        printf("Second largest element is %d\n", second);
+    // if (second == -2147483648)
+    //     printf("No second largest element (all elements are same).\n");
+    // else
+    //     printf("Second largest element is %d\n", second);
 
-    return 0;
+     return 0;
 }
