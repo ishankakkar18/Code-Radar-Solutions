@@ -10,7 +10,7 @@ int main(){
 
     int temp;
 
-    for (int i=0;i<n;i++)
+    for (int i=0;i<n-1;i++)
 {
     if (a[i]==0){
         for(int j=i+1;j<n;j++){
