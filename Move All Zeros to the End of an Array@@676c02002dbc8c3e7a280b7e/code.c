@@ -14,12 +14,12 @@ int main(){
 {
     if (a[i]==0){
         for(int j=i+1;j<n;j++){
-            
+            if (a[i]>temp){
                 temp =a[i];
                 a[i]=a[j];
                 a[j]=temp;
             
-        }}
+        }}}
     }
     for(int i=n-1;i>0;i--){
         printf("%d ",a[i]);}
