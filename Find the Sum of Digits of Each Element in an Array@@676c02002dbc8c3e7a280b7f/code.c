@@ -10,7 +10,7 @@ int main(){
     int r,rem;
     for(int i=0;i<n;i++){
         int sum =0;
-        while (a[i]>-88888)
+        while (a[i]>-88)
         {
             r=a[i]%10;
             sum =sum+r;
