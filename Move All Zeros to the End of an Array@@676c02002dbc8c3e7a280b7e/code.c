@@ -20,6 +20,9 @@ int main(){
                 a[j]=temp;
             
         }}
+        else{
+            continue;
+        }
     }
     // for(int i=n-1;i>0;i--){
     //     printf("%d ",a[i]);}
