@@ -9,9 +9,10 @@ int main(){
     }
     int r,rem;
     for(int i=0;i<n;i++){
+        int sum=0;
         if (a[i]>0){
         
-        int sum =0;
+        
         while (a[i]>0)
         {
             r=a[i]%10;
@@ -20,7 +21,7 @@ int main(){
 
         }}
         else{
-            int sum =0;
+            
         while (a[i]<0)
         {
             r=a[i]%10;
