@@ -21,4 +21,7 @@ int main(){
             break;
         }
     }
+    if (b==0){
+        printf("-1");
+    }
     return 0;}
