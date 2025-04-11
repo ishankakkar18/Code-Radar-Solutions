@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&a[i]);
 
     }
-    int m,rem;
+    int r,rem;
     for(int i=0;i<n;i++){
         int sum =0;
         while (a[i]>0)
