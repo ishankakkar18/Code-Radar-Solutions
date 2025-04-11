@@ -13,7 +13,7 @@ int main(){
         while (a[i]>0)
         {
             r=a[i]%10;
-            sum =(sum+r)*10;
+            sum =sum+r
             a[i]=a[i]/10;
 
         }
