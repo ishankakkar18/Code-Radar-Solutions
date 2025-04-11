@@ -1,3 +1,5 @@
+
+
 #include<stdio.h>
 int main(){
     int n;
@@ -14,12 +16,13 @@ int main(){
 {
     if (a[i]==0){
         for(int j=i+1;j<n;j++){
+            if (a[i]==0){
             
                 temp =a[i];
                 a[i]=a[j];
                 a[j]=temp;
             
-        }}
+        }}}
         else{
             continue;
         }
